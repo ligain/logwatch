@@ -11,5 +11,6 @@ Vagrant.configure("2") do |config|
 
   cp /vagrant/logwatch.sh /etc/cron.hourly/
   chmod +x /etc/cron.hourly/logwatch.sh
+
   SHELL
 end
